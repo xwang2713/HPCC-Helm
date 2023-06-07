@@ -1,0 +1,35 @@
+# Patterns to ignore when building packages.
+# This supports shell glob matching, relative path matching, and
+# negation (prefixed with !). Only one pattern per line.
+.DS_Store
+# Common VCS dirs
+.git/
+.gitignore
+.bzr/
+.bzrignore
+.hg/
+.hgignore
+.svn/
+# Common backup files
+*.swp
+*.bak
+*.tmp
+*~
+# Various IDEs
+.project
+.idea/
+*.tmproj
+.vscode/
+
+# Ignored components: mini (hthor)
+#/templates/sasha.yaml
+#/templates/roxie.yaml
+#/templates/thor.yaml
+#/templates/dfuserver.yaml
+#/templates/eclscheduler.yaml
+#/templates/localroxie.yaml
+
+#/templates/dafilesrv.yaml
+#/templates/eclagent.yaml
+#/templates/eclccserver.yaml
+#/templates/esp.yaml
